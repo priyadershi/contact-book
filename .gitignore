@@ -1,0 +1,50 @@
+# Ignore Maven target directory (compiled code, build artifacts)
+target/
+
+# Ignore Maven-specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+out/
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore NetBeans project files
+nbproject/
+*.nb-gradle/
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore logs and temp files
+*.log
+hs_err_pid*
+*.swp
+
+# Ignore compiled Java classes
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore package manager files
+node_modules/
+package-lock.json
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files (optional)
+.env
