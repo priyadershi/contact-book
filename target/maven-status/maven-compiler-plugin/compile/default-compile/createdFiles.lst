@@ -1,0 +1,6 @@
+com\contacts\model\Contact.class
+com\contacts\App.class
+com\contacts\repository\ContactRepository.class
+com\contacts\service\ContactService.class
+com\contacts\controller\ContactController.class
+com\contacts\repository\DatabaseConfig.class

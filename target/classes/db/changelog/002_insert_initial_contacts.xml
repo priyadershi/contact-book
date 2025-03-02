@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.8.xsd">
+
+  <changeSet id="002-insert-initial-contacts" author="Pankaj">
+    <insert tableName="contacts">
+      <column name="name" value="John Doe" />
+      <column name="phone" value="1234567890" />
+      <column name="email" value="john@example.com" />
+      <column name="address" value="patna, bihar 800020" />
+      <column name="dob" value="2002-10-04" />
+    </insert>
+    <insert tableName="contacts">
+      <column name="name" value="Jane Smith" />
+      <column name="phone" value="0987654321" />
+      <column name="email" value="jane@example.com" />
+      <column name="address" value="new delhi" />
+      <column name="dob" value="1998-11-20" />
+    </insert>
+  </changeSet>
+
+</databaseChangeLog>

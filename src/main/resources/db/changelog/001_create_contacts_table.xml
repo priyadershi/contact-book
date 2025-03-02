@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.8.xsd">
+
+  <changeSet id="001-create-contacts-table" author="Pankaj">
+    <createTable tableName="contacts">
+      <column name="id" type="int" autoIncrement="true">
+        <constraints primaryKey="true" />
+      </column>
+      <column name="name" type="varchar(50)">
+        <constraints unique="true" />
+      </column>
+      <column name="phone" type="varchar(15)"> </column>
+      <column name="email" type="varchar(50)"> </column>
+      <column name="address" type="varchar(100)"></column>
+      <column name="dob" type="DATE"></column>
+    </createTable>
+  </changeSet>
+
+</databaseChangeLog>
